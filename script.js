@@ -1,0 +1,9 @@
+// Smooth button click animation
+document.querySelectorAll('.btn').forEach(btn => {
+    btn.addEventListener('mousedown', () => {
+        btn.style.transform = "scale(0.96)";
+    });
+    btn.addEventListener('mouseup', () => {
+        btn.style.transform = "";
+    });
+});

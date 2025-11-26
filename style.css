@@ -1,0 +1,124 @@
+/* GLOBAL */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f9fc;
+    color: #222;
+}
+
+/* HEADER */
+.header {
+    padding: 15px 25px;
+    background: #1f2a44;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #0f172a, #1e3a8a);
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 22px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.primary {
+    background: #2563eb;
+    color: white;
+}
+
+.secondary {
+    background: #1f2a44;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+}
+
+/* SERVICES */
+.services {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.card {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* TEMPLATES */
+.template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(220px,1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.template-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    color: #1f2a44;
+    font-weight: bold;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.template-card:hover {
+    background: #2563eb;
+    color: white;
+}
+
+/* CONTACT */
+.contact {
+    padding: 40px;
+    text-align: center;
+}
+
+.small-credit {
+    margin-top: 5px;
+    font-size: 0.85rem;
+    color: #555;
+}
+
+/* DEMO COLORS */
+.demo-header {
+    padding: 50px 20px;
+    text-align: center;
+    color: white;
+}
+
+.demo-header.salon { background: #cc2e7c; }
+.demo-header.chicken { background: #e63946; }
+.demo-header.kota { background: #f59e0b; }
+.demo-header.tuckshop { background: #16a34a; }
